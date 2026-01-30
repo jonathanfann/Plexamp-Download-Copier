@@ -30,6 +30,13 @@ python plexampDownloadCopier.py [-d dir]
   -d dir - Full path to copy the music to. If not provided, the script will ask for a location. If the path does not exist, the script will ask before creating it.
 ```
 
+Mac
+```
+python3 plexampDownloadCopier.py [-d dir]
+
+  -d dir - Full path to copy the music to. If not provided, the script will ask for a location. If the path does not exist, the script will ask before creating it.
+```
+
 ## Notes
 
-This script was tested on Windows and Ubuntu, but should work on other platforms. Regardless, the worst that should happen is the script not automatically finding the PlexAmp download directory, in which case it will interactively ask the user to supply that location.
+This script was tested on Mac, and the original developer this is forked from said it has been tested on PC and Linux.
